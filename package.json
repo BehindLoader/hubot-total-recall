@@ -1,0 +1,25 @@
+{
+  "name": "hubot-reminder",
+  "version": "0.0.1",
+  "description": "A Hubot script that helps users not to forget important things.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js"
+  },
+  "author": "Simon Suprun <simonsuprun@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chrono-node": "1.4.3",
+    "hubot-routines": "git+https://github.com/wis-software/hubot-routines.git",
+    "node-schedule": "git+https://github.com/node-schedule/node-schedule.git",
+    "uuidv4": "6.0.2"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1"
+  }
+}
